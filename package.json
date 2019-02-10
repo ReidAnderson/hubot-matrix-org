@@ -1,0 +1,29 @@
+{
+  "name": "hubot-matrix-org",
+  "version": "0.0.5",
+  "description": "A hubot adapter for matrix",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reid Anderson",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "adapter",
+    "matrix",
+    "riot"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ReidAnderson/hubot-matrix-org"
+  },
+  "dependencies": {
+    "config": "^3.0.1",
+    "matrix-bot-sdk": "^0.2.4"
+  },
+  "peerDependencies": {
+    "hubot": ">= 2.0.0"
+  },
+  "devDependencies": {}
+}
