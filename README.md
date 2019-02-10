@@ -8,11 +8,12 @@ To create the chatbot, follow the hubot instructions at https://hubot.github.com
 
 Once you have the access token and name of the bot, either:
 1. Create a folder named `config` in the home directory of your hubot, and add a `default.json` file like the one below.
+
    ```
-{
-    "access_token": "YOUR_TOKEN_HERE",
-    "bot_name": "@BOTNAME:matrix.org"
-}
+      {
+         "access_token": "YOUR_TOKEN_HERE",
+         "bot_name": "@BOTNAME:matrix.org"
+      }
    ```
 
 2.  Set `process.env.matrixAccessToken` and `process.env.matrixBotName` values for your bot.
